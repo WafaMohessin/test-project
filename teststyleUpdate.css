@@ -1,0 +1,275 @@
+:root{
+    --paradise-pink: #ef476fff;
+    --dark-blue-gray: #6c6ea0ff;
+    --orange-yellow-crayola: #ffd166ff;
+    --mantis: #83d483ff;
+    --caribbean-green: #06d6a0ff;
+    --blue-ncs: #118ab2ff;
+    --midnight-green-eagle-green: #073b4cff;
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    background-color:white;
+    font-weight: bold;
+}
+
+
+img{
+    margin-top:30px;
+    
+
+}
+
+.columns{
+    margin-top: 30px;
+}
+
+
+.column {
+    margin-top: 10px;
+    padding: 20px,
+}
+
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color:white;
+    font-weight: bold;
+    font-size:30px;
+    margin-top: 20px;
+  }
+
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 30px;
+    color:white;
+    font-weight: bold;
+    margin-top: 20px;
+}  
+
+
+.card{
+        margin-bottom: 25px;
+    }
+
+button {
+    margin: 10px 5px 15px 5px;
+    font-size: 36px;
+    color: #fff;
+    padding: 10px 40px 10px 40px;
+    border: none;
+    border-radius: 7px;
+    background-color: #959597;
+}
+
+
+#exerciseSearch {
+background-color: white;
+border: 3px solid white;
+border-radius: 20px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-content h1{
+    font-size: 40px;
+    margin-left: 20px;
+    color:black;
+    text-align: left;
+}
+
+.box {
+    display:flex;
+    flex-direction:column;
+
+}
+
+.box select  { 
+    width: 100%;
+    background-color: #f0ecec;
+}
+
+.box button {
+    background-color: #ed562e;
+    border-radius: 10px;
+    width: auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.box button:hover{
+    color:#888787;
+
+}
+
+#searchButton{
+    width: 96%;
+    background-color: #f76b44;
+
+}
+
+#searchButton:hover{
+    color:#888787
+}
+
+#spotifyPlayer{
+    width:100%;
+    padding:20px;
+    margin: 10px 10px 20px 0;
+    background-color:white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.timer{
+    height: 300px;
+    background: #f5734f;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+#headline{
+    height: 10px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+
+.containerText {
+    display: flex;
+    height: 10px;
+    justify-content: center;
+    font-size: 20px;
+    font-style: bold;
+   
+  } 
+
+
+.label{
+      color:white;
+      font-size: 25px;
+  }
+
+
+.containerNumber{
+    display: flex;
+    justify-content: center;
+}
+  
+input{
+    width: 20px;
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+  
+  }
+  
+.time {
+    margin-top: 10px;
+    fill: none;
+    background: transparent;
+    border: none;  
+  }
+   
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      margin: 0; 
+  }
+
+  
+.semicolon {
+    width: 10px;
+    margin-top: 10px;
+    background-color:none;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+  }
+
+
+.section-timer {
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    width:100px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ed562e;
+    padding: 2px 20px 2px 20px;
+    border: none;
+    border-radius: 7px;
+    background-color: white;
+
+}
+
+
+#journal{
+    background:#d43661;  
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+label{
+    color:white;
+    font-size: 25px;
+}
+
+
+#application .button{
+    margin-top: 20px;
+    width:200px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #bb274f;
+    background-color: white;
+
+}
+
+.weatherCard{
+    background:#623965;  
+    border-radius:20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.weatherCard button{
+    color: #623965;
+}
+
+
+.weatherCard .column{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: ;
+    
+}
+
+.weatherCard h3{
+    color:white;
+}
+
+footer{
+    background-color: white;  
+    padding-bottom: 20px;
+    margin: 10px 0 20px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+footer h5{
+    color: black;
+    text-align: right;
+    margin-right: 236px;
+}

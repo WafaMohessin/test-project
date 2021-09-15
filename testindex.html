@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health4U</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="teststyleUpdate.css">
+</head>
+
+<body>
+    <header class="hero">
+        <div>
+            <img src="./images/GymHealthOrange-09.png" alt="site logo" style="max-height:100px;">
+        </div>
+    </header>
+    
+    <div class="columns is-centered">
+        <div id="rightside" class="column is-half">
+            <div id="exerciseSearch" class="card">
+                <div class="card-content">
+                    <h1>Find Your Workout!</h1>
+                    <br>
+
+                    <div class="box">
+                    <div class="select">
+                        <select id="selectBP">
+                        </select>
+                    </div>
+                    <button type="button" id="bodypartBTN" class="button">Search By Bodypart
+                    </button>
+                    <br>
+                    <div id="bpResult"></div>
+                    <br>
+                    <div class="select">
+                        <select id="selectEquipment">
+                        </select>
+                    </div>
+                    <button type="button" id="equipmentBTN" class="button">Search By Equipment
+                    </button>
+                    <br>
+                    <div id="equipmentResult"></div>
+                    <br>
+                    <div>
+                        <button type="button" id="searchButton" class="button container">Random Search</button>
+                        <div id="exercise"></div>
+                    </div>
+                    <br>
+                </div>
+                </div>
+            </div>
+
+            <div class="card" id="spotifyPlayer">
+                <div class="card-content">
+                    <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DWUSyphfcc6aL?theme=0"
+                        width="100%" height="380" frameBorder="0" allowtransparency="true"
+                        allow="encrypted-media"></iframe>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="column is-one-quarter" id="leftside">
+            <div class="card timer">
+                <div class="card-content">
+                    <h1 id="headline">Time youe Workout</h1>
+                    <div class="containerText columns is-mobile">
+                        <p id="hours-label" class="label column">Hours</p>
+                        <p id="minutes-label" class="label column">Minutes</p>
+                        <p id="seconds-label" class="label column">Seconds</p>
+                    </div>
+                    <div class="containerNumber columns is-mobile">
+                        <input id="hours" type="number" max="99" min="0" placeholder="00" class="time column">
+                        <p class="semicolon">:</p>
+                        <input id="minutes" type="number" max="60" min="0" placeholder="00" class="time column">
+                        <p class="semicolon">:</p>
+                        <input id="seconds" type="number" max="60" sec="0" placeholder="00" class="time column">
+                    </div>
+                    <div class="section-timer">
+                        <button id="start" class="button">Start</button>
+                        <button id="reset" class="button">Reset</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card" id="journal">
+                <div class="card-content">
+                    <form id="application">
+                        <label for='box1'>My workout</label>
+                        <input class="input" type='text' id='box1' My workout='box1' /><br>
+                        <label for='box2'>Progress</label>
+                        <textarea id='box2' class="textarea" name='Progress'></textarea>
+                        <button class="button">Log my progress</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card weatherCard">
+                <div class="card-content">
+                    <div id="searchCol" class="inputWeather container-weathermap">
+                        <h2>Search for a City</h2>
+                        <input type="text" placeholder="City Name" class="input" id="cityName">
+                        <button type="button" id="searchBTN" class="button mt-5">Search</button>
+                    </div>
+                    <div id="Weather" class="columns">
+                        <div class="column">
+                            <h2 id="location"></h2>
+                            <div><img id="conditionIcon"></div>
+                        </div>
+                        <div class="column">
+                            <h3>Description:</h3>
+                            <div id="description"></div>
+                            <h3>Temperature:</h3>
+                            <h2 id="temp"></h2>
+                            <h3>Humidity:</h3>
+                            <div id="humidity"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <footer class="card">
+        <h5>© Denzel Wallace, Sarah Maskill, and Wafa Mohessin</h5>
+    </footer>
+
+    <script src="timerscript.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
